@@ -1,0 +1,40 @@
+.imperio {
+    background-color: red;
+}
+
+.rebeldes {
+    background-color: blue;
+}
+
+#vader {
+    font-size:40px;
+    color:white;
+}
+
+#luke {
+    font-style: italic;
+    color:white;
+}
+
+.soldados {
+    border: dashed 2px greenyellow;
+    letter-spacing: 1.5
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+    color: white;
+}
+
+body {
+    background-image: url('gartic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    color:white
+}

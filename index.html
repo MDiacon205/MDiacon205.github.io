@@ -4,18 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Sofia|Montserrat" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>Entrevista a Messi</h1>
-    <h3>Pregunta 1</h3>
-    <p>Respuesta 1</p>
-    <h3>Pregunta 2</h3>
-    <p>Respuesta 2</p>
+    <div id="encabezado" class="bordesR parallax">
+    <h1>Sorteo</h1>
+    <p class="grande">Participá por una tarde con Messi</p>
+    </div>
 
-    <ul>
-        <li>Ig de messi</li>
-        <li>Imágenes de messi :)</li>
-    </ul>
+    <div id="form" class="centrado bordesR">
+    <p class="grande">Rellená tus datos acá abajo:</p>
+    <label>Nombre completo: <br> <input class="formcuadro" type="text" placeholder="Ingresar nombre"> </label> <br> <br>
+
+    <label>Color favorito:</label> <br>
+    <select class="formcuadro" >
+        <option>Naranja</option>
+        <option>Manzana</option>
+        <option>Pera</option>
+    </select> <br> <br>
+
+    Seleccione una fecha: <br>
+    <label>
+        28/4
+        <input type="radio" name="Turno" value="28abr"> <!-- TIENE QUE TENER EL MISMO NAME PARA SER REEMPLAZADO-->
+    </label>
+    <label> 
+        29/4
+        <input type="radio" name="Turno" value="29abr"> <!-- TIENE QUE TENER EL MISMO NAME PARA SER REEMPLAZADO-->
+    </label> <br>
+
+    <br><textarea class="formcuadro" style="resize:none" name="mensaje" placeholder="Envíale un comentario a Messi"></textarea> <br>
+
+    <br> <label for="checkbox">Estoy de acuerdo con los términos y condiciones.</label>
+    <input name="testeo" type="checkbox" value="testcheck">
+    <br><br> <input type="submit" value="Enviar" class="button bordesR" required> <br>
+
+    <br><p id="evid">Imágenes tomadas del sorteo anterior:</p>
+   <img src="images/messi2.jpg" alt="messimate2" class="bordesR" style="height:350px;width:530px;">
+    <img src="images/messi3.jpeg" alt="messimate3" class="bordesR" style="height:350px;width:530px;">
+    </div> 
 </body>
 </html>

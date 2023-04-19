@@ -1,0 +1,70 @@
+#encabezado  {
+    text-align:center;
+    border: 3px outset #ffe8d6;
+    margin: 25px;
+    color:white;
+    box-shadow: 3px 5px 5px #5E503F
+}
+#encabezado p {
+    font-family: 'Sofia', sans-serif;
+}
+
+.bordesR {
+    border-radius: 12px;
+}
+
+.grande {
+    font-size:20px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parallax {
+background-image: url('images/messi.avif');
+min-height: 100px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.centrado {
+text-align: center;
+margin-left:550px;
+margin-right:550px;
+border: 4px solid #EAE0D5;
+}
+
+#evid {
+    font-size: 12px;
+    text-align:left;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+body {
+    background: #C6AC8F;
+}
+
+#form {
+    background-color: #EAE0D5;
+}
+
+.formcuadro {
+    height: 25px;
+    width: 300px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.button {
+    height: 25px;
+    width:100px
+}
+
+#form {
+    box-shadow: 10px 20px 20px #5E503F
+}
